@@ -1,0 +1,159 @@
+/*Normalizar los estilos */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: hsl(0,0%,98%);   
+}
+
+/*Comenzamos con el header */
+
+header{
+    display:flex;   
+    justify-content: space-between;
+    padding: 12px 24px; /* de arriba hacia abajo  de ezquida derecha*/
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231013/pngtree-smoothie-with-strawberry-yogurt-a-deliciously-textured-treat-image_13652453.png");
+    background-repeat: no-repeat; /* Evita el mosaico */
+    background-size: 100% auto; /* Ajusta el ancho */
+    height: 250px;
+}
+
+header nav{
+    display: flex   ;
+
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:80px;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+
+main .hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 30px;
+    gap: 80px;
+}
+.hero li a{ 
+    text-decoration: none;
+    color: #3D8D7A;
+    font-size: 20px;
+    font-weight: 550;
+
+}
+
+main .hero{
+    display: flex;
+    justify-content: center;
+}
+
+.MuestraProducto{
+    display: flex;
+    justify-content: center; 
+    
+}
+.MuestraProducto div{
+   display: flex;
+  align-items: center;
+   width: 800px; 
+   margin-top: 100px;
+
+}
+
+.MuestraProducto h1{
+    font-size: 80px;
+    margin-left: 30px;
+    color: #3D8D7A;
+}
+.MuestraProducto p{
+    font-size: 30px;
+    margin: 80px;
+    color: #A3D1C6;
+ }
+
+.MuestraProducto img{
+    width: 1000px; 
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+ }
+
+
+.footer {
+    background-color: #508D4E;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: sans-serif;   
+    margin-top: 150px;
+ }
+  
+.FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+  
+.FooterSection {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.FooterSection h4 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.5rem;
+}
+  
+.FooterSection ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.FooterSection li {
+    margin-bottom: 0.5rem;
+}
+  
+.FooterSection a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+  
+.FooterSection a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+  
+.FooterBottom {
+    text-align: center;
+    margin-top: 2rem;
+
+    padding-top: 1rem;
+    font-size: 0.875rem;
+}
+  
