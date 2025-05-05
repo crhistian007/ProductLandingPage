@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="grid grid-cols-3 gap-1">
+        <div class="col-span-3  bg-[url(https://wallpaperaccess.com/full/4265610.jpg)] bg-cover bg-center" style="height: 20vh;">
+              <nav class=" ">
+                <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 justify-center ">
+                <img src="https://th.bing.com/th/id/OIP.4nNCgEgTwtDZ-000FRedkAHaHa?rs=1&pid=ImgDetMain" class="h-30 "  alt="" />   
+                </div>
+              </nav>
+            <nav >
+            <div >
+                <div class="flex items-center justify-center">
+                    <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
+                        <li>
+                            <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 dark:text-white hover:underline">Company</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 dark:text-white hover:underline">Features</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+
+        </div>
+          <div class=" " style="height: 65vh;">
+            <aside class="hidden md:block w-64 bg-white border border-gray-200  p-4" style="height: 64vh;width:20vw ;">
+              <!-- Título -->
+              <h2 class="text-xl font-semibold mb-4">Filtrar Comentarios</h2>
+            
+              <!-- Buscador -->
+              <div class="mb-6">
+                <label for="search" class="block text-sm font-medium text-gray-700 mb-1">
+                  Buscar palabra clave
+                </label>
+                <input
+                  type="text"
+                  id="search"
+                  placeholder="Ej: excelente, sabor…"
+                  class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            
+              <!-- Checkbox: Solo 5 estrellas -->
+              <div class="mb-4">
+                <label class="inline-flex items-center">
+                  <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" />
+                  <span class="ml-2 text-gray-700">Solo 5 estrellas</span>
+                </label>
+              </div>
+            
+              <!-- Checkbox: Más recientes primero -->
+              <div class="mb-4">
+                <label class="inline-flex items-center">
+                  <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" />
+                  <span class="ml-2 text-gray-700">Más recientes primero</span>
+                </label>
+              </div>
+            
+              <!-- Checkbox: Comentarios largos -->
+              <div class="mb-6">
+                <label class="inline-flex items-center">
+                  <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" />
+                  <span class="ml-2 text-gray-700">Comentarios largos</span>
+                </label>
+              </div>
+            
+              <!-- Botón de aplicar filtros -->
+              <button
+                type="button"
+                class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+              >
+                Aplicar filtros
+              </button>
+            </aside>
+            
+          </div>
+        <main class="col-span-2   flex flex-col justify-center items-center p-2 text-center" >
+           <!-- Contenedor de cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 flex flex-col" >
+  <!-- Card 1 -->
+  <div class="bg-white rounded-lg shadow p-6 ">
+    <div class="flex items-center mb-4">
+      <img src="https://th.bing.com/th/id/OIP.9mH52W9aYqLWU9FaFXBEfwAAAA?w=216&h=220&c=7&r=0&o=5&pid=1.7" alt="Avatar de Juan" class="w-10 h-10 rounded-full mr-3">
+      <h3 class="text-lg font-semibold">Juan</h3>
+    </div>
+    <p class="text-gray-700">
+      ¡Me encanta este yogur sabor fresa! Su textura cremosa y ese toque de fruta natural lo hacen perfecto para el desayuno.
+    </p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <div class="flex items-center mb-4">
+      <img src=" https://th.bing.com/th/id/R.c7c5dcae15e1ee98a2d5b1a28e75bf50?rik=D0e3CG4Fd1g72g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-0uiV-dqstno%2fToWpr7d9IdI%2fAAAAAAAAAI0%2frm4NUaKPxwc%2fs1600%2fcara-feliz-732969.jpg&ehk=1dpHReL0%2b5hBOBCl%2bncB75P36xMaE%2f1Lyh9JArgRKmQ%3d&risl=&pid=ImgRaw&r=0" alt="Avatar de María" class="w-10 h-10 rounded-full mr-3">
+      <h3 class="text-lg font-semibold">María</h3>
+    </div>
+    <p class="text-gray-700">
+      El yogur de mora es una explosión de sabor. Lo tomo como snack a media tarde y siempre me alegra el día.
+    </p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <div class="flex items-center mb-4">
+      <img src="data:image/jpeg;base64,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" alt="Avatar de Carlos" class="w-10 h-10 rounded-full mr-3">
+      <h3 class="text-lg font-semibold">Carlos</h3>
+    </div>
+    <p class="text-gray-700">
+      Probé la versión deslactosada y casi no noto la diferencia. ¡Ideal para los que somos intolerantes!
+    </p>
+  </div>
+
+  <!-- Agrega más cards aquí -->
+</div>
+        </main>
+        <footer class="col-span-3  " style="height: 15vh;">
+          <footer class="bg-gray-800 text-gray-200 py-8">
+            <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              <!-- Contacto telefónico -->
+              <div>
+                <h4 class="text-lg font-semibold mb-2">Teléfono</h4>
+                <p class="text-sm">+51 987 873 785</p>
+              </div>
+          
+              <!-- WhatsApp -->
+              <div>
+                <h4 class="text-lg font-semibold mb-2">WhatsApp</h4>
+                <p class="text-sm">+51 987 873 785</p>
+              </div>
+          
+              <!-- Dirección -->
+              <div>
+                <h4 class="text-lg font-semibold mb-2">Dirección</h4>
+                <p class="text-sm">Av. Principal 123, Lima, Perú</p>
+              </div>
+          
+              <!-- Email -->
+              <div>
+                <h4 class="text-lg font-semibold mb-2">Email</h4>
+                <p class="text-sm">contacto@miempresa.com</p>
+              </div>
+            </div>
+          
+            <div class="mt-8 border-t border-gray-700 pt-4">
+              <p class="text-center text-sm">&copy; 2021 Mi Empresa, Inc. Todos los derechos reservados.</p>
+            </div>
+          </footer>
+        </footer>
+      </div>
+</body>
+</html>
